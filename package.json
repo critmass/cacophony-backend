@@ -1,0 +1,27 @@
+{
+  "name": "cacophony_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "author": "Jason Cox",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parse": "^0.1.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-ws": "^5.0.2",
+    "jsonschema": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "node": "^16.9.1",
+    "pg": "^8.7.1",
+    "socket.io": "^4.2.0",
+    "supertest": "^6.1.6"
+  }
+}

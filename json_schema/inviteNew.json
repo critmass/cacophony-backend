@@ -1,0 +1,17 @@
+{
+    "type":"object",
+    "required":[
+        "role_id"
+    ],
+    "properties":{
+        "role_id":{
+            "type":"integer"
+        },
+        "user_cap":{
+            "type":"integer"
+        },
+        "experation_time":{
+            "type":"integer"
+        }
+    }
+}

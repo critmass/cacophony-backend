@@ -1,0 +1,16 @@
+{
+    "type":"object",
+    "properties":{
+        "nickname":{
+            "type":"string",
+            "minLength":1,
+            "maxLength":32
+        },
+        "roleId": {
+            "type": "integer"
+        },
+        "pictureUrl":{
+            "type":"string"
+        }
+    }
+}

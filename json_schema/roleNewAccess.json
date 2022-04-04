@@ -1,0 +1,18 @@
+{
+    "type":"object",
+    "require":[
+        "role_id",
+        "room_id"
+    ],
+    "properties":{
+        "role_id":{
+            "type":"integer"
+        },
+        "room_id":{
+            "type":"integer"
+        },
+        "is_moderator":{
+            "type":"boolean"
+        }
+    }
+}
