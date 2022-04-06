@@ -17,7 +17,7 @@ const {
 const jwt = require("jsonwebtoken")
 const userNewSchema = require("../json_schema/userNew.json");
 const userUpdateSchema = require("../json_schema/userUpdate.json");
-const User = require("../database_models/user");
+const User = require("../database_models/User");
 
 const router = express.Router();
 
