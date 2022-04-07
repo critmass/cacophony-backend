@@ -14,7 +14,7 @@ class RoomMember {
      * stores: memberId, room, and the websocket connection
      */
 
-    async constructor (send, roomId) {
+    constructor (send, roomId) {
         try {
             this.room = await Room.get(roomId)
             this._send = send

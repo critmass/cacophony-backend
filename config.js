@@ -6,7 +6,7 @@
  * project "Express-Jobly"
 */
 
-const password = require("./password")
+const password = process.env.DATABASE_URL ? "" : require("./password")
 
 require("dotenv").config();
 require("colors");
