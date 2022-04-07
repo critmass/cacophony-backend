@@ -22,8 +22,9 @@ app.use(morgan("tiny"));
 app.use((req, res, next) => {
     try {
         console.log(req.body)
+        return next()
     } catch (err) {
-        next(err)
+        return next(err)
     }
 })
 
