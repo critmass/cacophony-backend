@@ -6,7 +6,7 @@
 
 const jsonschema = require("jsonschema");
 
-const User = require("../database_models/user");
+const User = require("../database_models/User");
 const express = require("express");
 const router = new express.Router();
 const { createToken } = require("../helpers/tokens");
